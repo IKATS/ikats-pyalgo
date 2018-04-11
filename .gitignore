@@ -1,0 +1,13 @@
+*.swp
+.idea
+.project
+
+.pydevproject
+.settings
+*~
+__pycache__
+*.py[cod]
+*$py.class
+*.rst
+junit.xml
+docker_bindings
