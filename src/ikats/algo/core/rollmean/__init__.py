@@ -15,4 +15,7 @@ limitations under the License.
 
 """
 from pkgutil import extend_path
+from ikats.algo.core.rollmean.rollmean_computation import Alignment, get_window_size, rollmean, rollmean_ds, \
+    rollmean_ts_list, rollmean_tsuid, save_rollmean
+
 __path__ = extend_path(__path__, __name__)

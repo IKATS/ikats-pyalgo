@@ -14,5 +14,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 """
-from pkgutil import extend_path
-__path__ = extend_path(__path__, __name__)
+

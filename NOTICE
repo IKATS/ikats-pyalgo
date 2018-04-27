@@ -1,0 +1,135 @@
+IKATS
+Copyright 2017-2018 CS Systèmes d'Information
+
+This product includes software developed by
+CS Systèmes d'Information (http://www.c-s.fr/)
+
+
+=================================================
+Massachusetts Institute of Technology License
+http://opensource.org/licenses/MIT
+=================================================
+
+The following components are provided under Massachusetts Institute of Technology License:
+
+    setuptools (33.1.1)
+    https://pypi.org/project/setuptools/
+
+    six (1.10.0)
+    https://pypi.org/project/six/
+
+    cffi (1.8.3)
+    https://pypi.org/project/cffi/
+
+    django-cors-headers (2.1.0)
+    https://pypi.org/project/django-cors-headers/
+
+    eventlet (0.20.1)
+    https://pypi.org/project/eventlet/
+
+    fastdtw (0.3.0)
+    https://pypi.org/project/fastdtw/
+
+    flake8 (3.0.4)
+    https://pypi.org/project/flake8/
+
+    greenlet (0.4.12)
+    https://pypi.org/project/greenlet/
+
+    gunicorn (19.3.0)
+    https://pypi.org/project/gunicorn/
+
+    httpretty (0.8.14)
+    https://pypi.org/project/httpretty/
+
+    mccabe (0.5.2)
+    https://pypi.org/project/mccabe/
+
+    natsort (5.0.2)
+    https://pypi.org/project/natsort/
+
+    pycodestyle (2.0.0)
+    https://pypi.org/project/pycodestyle/
+
+    pyflakes (1.2.3)
+    https://pypi.org/project/pyflakes/
+
+
+=================================================
+Apache Software License
+https://www.apache.org/licenses/
+=================================================
+
+The following components are provided under Apache Software License:
+
+    pbr (1.10.0)
+    https://pypi.org/project/pbr/
+
+    requests (2.8.1)
+    https://pypi.org/project/requests/
+
+    pyspark (1.6.2)
+    http://spark.apache.org/docs/2.1.0/api/python/_modules/pyspark.html
+
+
+=================================================
+GNU Lesser General Public License
+Zope Public License
+https://www.gnu.org/licenses/lgpl-3.0.en.html
+https://opensource.org/licenses/ZPL-2.0
+=================================================
+
+The following components are provided under GNU Lesser General Public License and Zope Public License (LGPL with exceptions or ZPL):
+
+    psycopg2 (2.7.3.1)
+    https://pypi.org/project/psycopg2/
+
+
+=================================================
+Berkeley Software Distribution
+https://opensource.org/licenses/BSD-3-Clause
+=================================================
+
+The following components are provided under Berkeley Software Distribution:
+
+    numpy (1.11.0)
+    http://www.numpy.org/license.html
+
+    py4j (0.10.3)
+    https://pypi.org/project/py4j/
+
+    pycparser (2.17)
+    https://pypi.org/project/pycparser/
+
+    scikit-learn (0.19.1)
+    https://pypi.org/project/scikit-learn/
+
+    scipy (0.17.1)
+    https://pypi.org/project/scipy/
+
+    Django (1.8.6)
+    https://pypi.org/project/Django/
+
+
+
+=================================================
+Apache Software License + BSD
+https://www.apache.org/licenses/
+https://opensource.org/licenses/BSD-3-Clause
+=================================================
+
+The following components are provided under Apache Software & BSD Licenses:
+
+  python-dateutil (2.6.0)
+  https://pypi.org/project/python-dateutil/
+
+
+=================================================
+  PSF License
+  https://docs.python.org/3/license.html
+
+=================================================
+
+The following components are provided under PSF Licenses :
+
+  Python (3.6.0)

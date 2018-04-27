@@ -15,4 +15,5 @@ limitations under the License.
 
 """
 from pkgutil import extend_path
+from ikats.algo.core.correlation.correlation import ccf, _ccf, pearson_correlation_matrix, spark_ccf
 __path__ = extend_path(__path__, __name__)

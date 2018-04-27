@@ -15,4 +15,7 @@ limitations under the License.
 
 """
 from pkgutil import extend_path
+from ikats.algo.core.discretization.discretization import discretize_dataset
+
+
 __path__ = extend_path(__path__, __name__)

@@ -15,4 +15,5 @@ limitations under the License.
 
 """
 from pkgutil import extend_path
+from ikats.algo.core.spark_corr.spark_corr import ListAccumulatorParam, SparkCorrelation
 __path__ = extend_path(__path__, __name__)

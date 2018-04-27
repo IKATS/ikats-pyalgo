@@ -15,4 +15,5 @@ limitations under the License.
 
 """
 from pkgutil import extend_path
+from ikats.algo.core.resampling.resampling_computation import resampling_ts, downsampling_ts, upsampling_ts
 __path__ = extend_path(__path__, __name__)

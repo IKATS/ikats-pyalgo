@@ -15,4 +15,6 @@ limitations under the License.
 
 """
 from pkgutil import extend_path
+from ikats.algo.core.ts_cut.ts_cut import cut_ts, TsCut, cut_ds
+from ikats.algo.core.ts_cut.ds_cut_from_metric import cut_ds_from_metric
 __path__ = extend_path(__path__, __name__)

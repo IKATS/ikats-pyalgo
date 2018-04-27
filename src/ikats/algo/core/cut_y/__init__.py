@@ -14,5 +14,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 """
+# Simplify the import patterns for user
+# Instead of importing :
+#   from ikats.algo.core.cuty.cuty import *
+# User will do:
+#   from ikats.algo.core.cuty import *
+
 from pkgutil import extend_path
+from ikats.algo.core.cut_y.cut_y import *
+
 __path__ = extend_path(__path__, __name__)

@@ -14,5 +14,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 """
+# Simplify the import patterns for user
+# Instead of importing :
+#   from ikats.algo.core.slope.slope import *
+# User will do:
+#   from ikats.algo.core.slope import *
+
 from pkgutil import extend_path
+from ikats.algo.core.slope.slope import *
+
 __path__ = extend_path(__path__, __name__)

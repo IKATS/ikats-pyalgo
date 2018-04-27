@@ -29,6 +29,9 @@ popd >/dev/null
 sed -i "s@DOCKER_BINDINGS_POSTGRES=.*@DOCKER_BINDINGS_POSTGRES=${pathToDockerBindings}/docker_bindings/postgresql@" .env
 sed -i "s@DOCKER_BINDINGS_HBASE=.*@DOCKER_BINDINGS_HBASE=${pathToDockerBindings}/docker_bindings/hbase/hbase@" .env
 
+# Clean older images to force pull of latest version
+docker rmi -f $(docker images hub.ops.ikats.org/ikats-* --format "{{.Repository}}:{{.Tag}}" | grep "latest")
+
 # Start ikats
 docker-compose up --build -d
 
