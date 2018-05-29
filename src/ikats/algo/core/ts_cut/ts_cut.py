@@ -18,6 +18,7 @@ import logging
 import multiprocessing
 import time
 
+from ikats.core.library.exception import IkatsConflictError
 from ikats.core.resource.api import IkatsApi
 
 
@@ -158,6 +159,15 @@ class TsCut(object):
 
         # Use default Functional Identifier if not defined in arguments
         fid = fid or "%s_%s_%d" % (self.fid, self.short_name, time.time() * 1e6)
+
+        # Check if func id already exists in database
+        try:
+            IkatsApi.fid.tsuid(fid)
+            # func id already exist => raise exception
+            raise IkatsConflictError("Funcional Id %s already exist in base", fid)
+        except ValueError:
+            # No match : nominal case
+            logging.info("Creating new time series with FID %s in base ", fid)
 
         # Saving new TS in database
         results = IkatsApi.ts.create(data=self.result, fid=fid, parent=tsuid_parent)
